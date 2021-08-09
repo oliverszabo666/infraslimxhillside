@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="654" height="438.664" viewBox="0 0 654 438.664">
+  <g id="logo1" transform="translate(-842 -526.336)">
+    <g id="mountains" transform="translate(1054 526.336)">
+      <path id="Path_1" data-name="Path 1" d="M114.832,0A114.824,114.824,0,0,0,7.427,155.449a6.138,6.138,0,0,0,.409,1.075A114.832,114.832,0,1,0,114.832,0Zm0,12.348A102.516,102.516,0,0,1,215.626,133.4L155.355,92.274a6.175,6.175,0,0,0-7.107.1l-49.312,35.79-31.8-15.074a6.175,6.175,0,0,0-6.142.491l-44.381,30.51a102.491,102.491,0,0,1,98.22-131.746ZM31.721,148.691l33.336-22.917,22.489,10.66-24.3,17.639A296.747,296.747,0,0,1,31.721,148.691ZM201,170.255c-18.22-8.82-46.758-13.291-84.97-13.291q-17.91,0-34.171-1.146l70.124-50.9,60.429,41.236A102.069,102.069,0,0,1,201,170.255Zm-86.169,47.061A102.614,102.614,0,0,1,22.425,159.13c26.128,6.76,57.549,10.182,93.606,10.182,34.942,0,60.957,3.727,77.508,11.081A102.31,102.31,0,0,1,114.832,217.317Z" fill="#f9f7f4"/>
+    </g>
+    <text id="INFRASLIM_X" data-name="INFRASLIM X" transform="translate(842 894)" fill="#f9f7f4" font-size="100" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0" letter-spacing="0.12em">INFRA</tspan><tspan y="0" font-family="Poppins-Thin, Poppins" font-weight="200" letter-spacing="0.12em">SLIM</tspan><tspan y="0" xml:space="preserve" fill="#ed027e" font-family="Poppins-Regular, Poppins" font-weight="400"> X</tspan></text>
+    <text id="HILLSIDE" transform="translate(1302 947)" fill="#ed027e" font-size="50" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">HILLSIDE</tspan></text>
+  </g>
+</svg>

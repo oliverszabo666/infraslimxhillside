@@ -1,0 +1,27 @@
+@import "../app/app.scss";
+
+.hero {
+  height: 100vh;
+  background: $base-color;
+}
+
+.ctaSection {
+  width: 800px;
+  margin: 0 auto;
+
+  .ctaLogo {
+    img {
+      width: 100%;
+    }
+  }
+  .cta {
+    padding: 20px 40px;
+    margin: 10px auto;
+    display: block;
+    letter-spacing: 1.5px;
+    border: 2px solid $pink-color;
+    border-radius: 50px;
+    background: transparent;
+    color: $pink-color;
+  }
+}

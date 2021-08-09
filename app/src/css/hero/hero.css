@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hero {
+  height: 100vh;
+  background: #141415;
+}
+
+.ctaSection {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.ctaSection .ctaLogo img {
+  width: 100%;
+}
+
+.ctaSection .cta {
+  padding: 20px 40px;
+  margin: 10px auto;
+  display: block;
+  letter-spacing: 1.5px;
+  border: 2px solid #ed027e;
+  border-radius: 50px;
+  background: transparent;
+  color: #ed027e;
+}
+/*# sourceMappingURL=hero.css.map */
