@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/infraslimxhillside/static/css/main.fe632f6a.chunk.css",
+    "main.js": "/infraslimxhillside/static/js/main.abb5dfb5.chunk.js",
+    "main.js.map": "/infraslimxhillside/static/js/main.abb5dfb5.chunk.js.map",
+    "runtime-main.js": "/infraslimxhillside/static/js/runtime-main.165c0343.js",
+    "runtime-main.js.map": "/infraslimxhillside/static/js/runtime-main.165c0343.js.map",
+    "static/js/2.d5cf0ae8.chunk.js": "/infraslimxhillside/static/js/2.d5cf0ae8.chunk.js",
+    "static/js/2.d5cf0ae8.chunk.js.map": "/infraslimxhillside/static/js/2.d5cf0ae8.chunk.js.map",
+    "static/js/3.b2549587.chunk.js": "/infraslimxhillside/static/js/3.b2549587.chunk.js",
+    "static/js/3.b2549587.chunk.js.map": "/infraslimxhillside/static/js/3.b2549587.chunk.js.map",
+    "index.html": "/infraslimxhillside/index.html",
+    "static/css/main.fe632f6a.chunk.css.map": "/infraslimxhillside/static/css/main.fe632f6a.chunk.css.map",
+    "static/js/2.d5cf0ae8.chunk.js.LICENSE.txt": "/infraslimxhillside/static/js/2.d5cf0ae8.chunk.js.LICENSE.txt",
+    "static/media/infraslim.cb0fa2b8.png": "/infraslimxhillside/static/media/infraslim.cb0fa2b8.png",
+    "static/media/logo1.54816f91.png": "/infraslimxhillside/static/media/logo1.54816f91.png",
+    "static/media/logo2.5b485875.png": "/infraslimxhillside/static/media/logo2.5b485875.png",
+    "static/media/woman.8a75422d.png": "/infraslimxhillside/static/media/woman.8a75422d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.165c0343.js",
+    "static/js/2.d5cf0ae8.chunk.js",
+    "static/css/main.fe632f6a.chunk.css",
+    "static/js/main.abb5dfb5.chunk.js"
+  ]
+}
