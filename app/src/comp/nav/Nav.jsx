@@ -6,16 +6,30 @@ const Nav = () => {
     <div className="nav">
       <nav>
         <div className="logo">
-          <img src={logo} />
+          <a href="#hero">
+            <img src={logo} alt="NavLogo" />
+          </a>
         </div>
         <div className="list">
           <ul>
-            <li>RÓLUNK</li>
-            <li>FŐOLDAL</li>
-            <li>INFRASLIM X</li>
-            <li>KAPCSOLAT</li>
             <li>
-              <button>FOGLALÁS</button>
+              <a href="#about">RÓLUNK</a>
+            </li>
+            <li>
+              <a href="#hero">FŐOLDAL</a>
+            </li>
+            <li>
+              <a href="#infraslim">INFRASLIM X</a>
+            </li>
+            <li>
+              <a href="#reservation">KAPCSOLAT</a>
+            </li>
+            <li>
+              <li>
+                <a href="#reservation">
+                  <button>FOGLALÁS</button>
+                </a>
+              </li>
             </li>
           </ul>
         </div>

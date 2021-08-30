@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#about {
+  background: #f9f7f4;
+  min-height: 100vh;
+}
+
+#about .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+#about .container .text-div {
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+}
+
+#about .container .text-div .title {
+  margin-bottom: 80px;
+}
+
+#about .container .text-div .title h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+#about .container .text-div .text h2 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-bottom: 70px;
+}
+
+#about .container .text-div .text p {
+  font-size: 25px;
+  line-height: 2;
+  width: 90%;
+}
+
+#about .container .text-div .cta {
+  margin: 50px 0;
+}
+
+#about .container .img-div {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  overflow: hidden;
+}
+
+.pink-words {
+  color: #ed027e;
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 *,
 *::before,
 *::after {
@@ -5,6 +6,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 svg {
@@ -15,7 +17,16 @@ button {
   cursor: pointer;
 }
 
-.hero {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#hero {
   height: 100vh;
   background: #141415;
 }
@@ -29,12 +40,13 @@ button {
   width: 100%;
 }
 
-.ctaSection .cta {
+.cta {
   padding: 20px 40px;
   margin: 10px auto;
   display: block;
   letter-spacing: 1.5px;
-  border: 2px solid #ed027e;
+  border: 3px solid #ed027e;
+  font-size: 25px;
   border-radius: 50px;
   background: transparent;
   color: #ed027e;

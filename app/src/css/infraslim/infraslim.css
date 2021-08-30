@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#infraslim {
+  min-height: 200vh;
+  background: #141415;
+  color: #f9f7f4;
+}
+
+#infraslim .container {
+  overflow: hidden;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+#infraslim .title {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+#infraslim p {
+  font-size: 25px;
+  width: 70%;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+#infraslim .img {
+  position: absolute;
+  left: 25%;
+}
+
+#infraslim .img img {
+  width: 90%;
+  z-index: -1;
+}
+
+#infraslim .list {
+  font-size: 25px;
+}
+
+#infraslim .list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#infraslim .list ul li .ellipse {
+  margin-right: 10px;
+}
+
+#infraslim .list ul li .label {
+  margin-bottom: 10px;
+}
+
+#infraslim .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
+  width: 95%;
+}
+
+#infraslim .cards .health,
+#infraslim .cards .sport,
+#infraslim .cards .beauty {
+  border: solid 3px #ed027e;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+#infraslim .cards .health .card-title,
+#infraslim .cards .sport .card-title,
+#infraslim .cards .beauty .card-title {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 110px;
+}
+
+#infraslim .cards .health .img-card,
+#infraslim .cards .sport .img-card,
+#infraslim .cards .beauty .img-card {
+  margin: 0 auto;
+}
+
+#infraslim .cards .health .img-card img,
+#infraslim .cards .sport .img-card img,
+#infraslim .cards .beauty .img-card img {
+  width: 64px;
+}
+
+#infraslim .cards .health p,
+#infraslim .cards .sport p,
+#infraslim .cards .beauty p {
+  font-size: 20px;
+  margin: 80px auto 20px;
+  text-align: justify;
+}
+/*# sourceMappingURL=infraslim.css.map */

@@ -4,13 +4,15 @@ import logo2 from "../../img/logo2.png";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="hero">
       <div className="ctaSection">
         <div className="ctaLogo">
-          <img src={logo2} />
+          <img src={logo2} alt="Logo" />
         </div>
 
-        <button className="cta">FOGLALÁS</button>
+        <a href="#reservation">
+          <button className="cta">FOGLALÁS </button>
+        </a>
       </div>
     </div>
   );

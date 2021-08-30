@@ -1,3 +1,4 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
 *,
 *::before,
 *::after {
@@ -9,6 +10,10 @@
 
 svg {
   width: 100%;
+}
+
+button {
+  cursor: pointer;
 }
 
 .nav {

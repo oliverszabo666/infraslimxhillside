@@ -1,18 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  scroll-behavior: smooth;
 }
 
 $base-color: #141415;
 $pink-color: #ed027e;
 $white-color: #f9f7f4;
+$font: "Poppins", sans-serif;
 
 svg {
   width: 100%;
 }
 button {
   cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: $font;
 }

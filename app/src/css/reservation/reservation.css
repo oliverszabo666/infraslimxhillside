@@ -1,0 +1,13 @@
+#reservation {
+  min-height: 40vh;
+}
+
+#reservation .container {
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+#reservation .container h1 {
+  font-size: 70px;
+}
+/*# sourceMappingURL=reservation.css.map */

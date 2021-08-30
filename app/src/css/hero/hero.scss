@@ -1,6 +1,6 @@
 @import "../app/app.scss";
 
-.hero {
+#hero {
   height: 100vh;
   background: $base-color;
 }
@@ -14,14 +14,16 @@
       width: 100%;
     }
   }
-  .cta {
-    padding: 20px 40px;
-    margin: 10px auto;
-    display: block;
-    letter-spacing: 1.5px;
-    border: 2px solid $pink-color;
-    border-radius: 50px;
-    background: transparent;
-    color: $pink-color;
-  }
+}
+
+.cta {
+  padding: 20px 40px;
+  margin: 10px auto;
+  display: block;
+  letter-spacing: 1.5px;
+  border: 3px solid $pink-color;
+  font-size: 25px;
+  border-radius: 50px;
+  background: transparent;
+  color: $pink-color;
 }
