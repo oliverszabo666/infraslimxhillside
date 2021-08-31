@@ -76,10 +76,8 @@
 
 @media (max-width: 400px) {
   #reservation .container .kapcsolat {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -91,6 +89,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 50%;
 }
 
 @media (max-width: 400px) {
@@ -104,6 +103,12 @@
   text-align: center;
 }
 
+@media (max-width: 400px) {
+  #reservation .container .kapcsolat .icons .p {
+    font-size: 11px;
+  }
+}
+
 #reservation .container .kapcsolat .icons .icon-img {
   width: 40px;
   margin: 0 auto;
@@ -111,5 +116,28 @@
 
 #reservation .container .kapcsolat .icons .icon-img img {
   width: 100%;
+}
+
+#reservation .container .location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#reservation .container .location .loc-img {
+  width: 45px;
+}
+
+#reservation .container .location .loc-img img {
+  width: 100%;
+}
+
+#reservation .container .location h4 {
+  margin-left: 20px;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=reservation.css.map */

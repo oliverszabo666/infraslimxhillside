@@ -4,6 +4,7 @@ import phone from "../../img/smartphone.png";
 import facebook from "../../img/facebook.png";
 import instagram from "../../img/instagram.png";
 import email from "../../img/email.png";
+import location from "../../img/placeholder.png";
 
 const Reservation = () => {
   return (
@@ -55,6 +56,12 @@ const Reservation = () => {
             </div>
             <div className="p">infraslimxhillside@gmail.com</div>
           </div>
+        </div>
+        <div className="location">
+          <div className="loc-img">
+            <img src={location} alt="location" />
+          </div>
+          <h4>1034 Budapest, Bécsi út 130</h4>
         </div>
       </div>
     </div>
