@@ -45,6 +45,12 @@
           display: flex;
           justify-content: center;
           align-items: center;
+
+          transition: 400ms;
+
+          &:hover {
+            color: rgb(97, 97, 97);
+          }
         }
       }
       button {
@@ -57,6 +63,12 @@
         background: $pink-color;
         color: $white-color;
         letter-spacing: 1.5px;
+
+        transition: 400ms;
+
+        &:hover {
+          background: transparent;
+        }
       }
     }
   }

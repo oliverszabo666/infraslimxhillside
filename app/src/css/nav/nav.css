@@ -99,6 +99,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.nav nav .list ul li:hover {
+  color: #616161;
 }
 
 .nav nav .list button {
@@ -109,5 +115,11 @@ body {
   background: #ed027e;
   color: #f9f7f4;
   letter-spacing: 1.5px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.nav nav .list button:hover {
+  background: transparent;
 }
 /*# sourceMappingURL=nav.css.map */

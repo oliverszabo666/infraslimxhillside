@@ -86,6 +86,13 @@
 
   z-index: 99;
 
+  transition: 400ms;
+
+  &:hover {
+    background: $pink-color;
+    color: $white-color;
+  }
+
   @media (max-width: 1500px) {
     font-size: 22px;
   }

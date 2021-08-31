@@ -5,7 +5,22 @@
     padding-top: 80px;
     padding-left: 40px;
 
-    @media (max-width: 400px) {
+    p {
+      margin-top: 20px;
+      font-size: 25px;
+
+      @media (max-width: 1500px) {
+        font-size: 22px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 20px;
+      }
+      @media (max-width: 800px) {
+        font-size: 18px;
+      }
+    }
+
+    @media (max-width: 600px) {
       padding-left: 20px;
     }
 
@@ -23,6 +38,37 @@
       }
       @media (max-width: 350px) {
         font-size: 30px;
+      }
+    }
+
+    .kapcsolat {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 50px;
+
+      @media (max-width: 400px) {
+        flex-direction: column;
+      }
+
+      .icons {
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width: 400px) {
+          margin-top: 20px;
+        }
+        .p {
+          margin: 0 auto;
+          text-align: center;
+        }
+        .icon-img {
+          width: 40px;
+          margin: 0 auto;
+
+          img {
+            width: 100%;
+          }
+        }
       }
     }
   }
