@@ -27,7 +27,7 @@ body {
 }
 
 .nav {
-  height: 20vh;
+  height: 150px;
   background: #141415;
   position: -webkit-sticky;
   position: sticky;
@@ -35,9 +35,13 @@ body {
   z-index: 9999;
 }
 
+.nav .display {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .nav {
-    display: none;
+    height: 90px;
   }
 }
 
@@ -56,11 +60,80 @@ body {
 }
 
 .nav nav .logo {
-  width: 100px;
+  width: 80px;
+}
+
+@media (max-width: 1000px) {
+  .nav nav .logo {
+    width: 40px;
+  }
 }
 
 .nav nav .logo img {
   width: 100%;
+}
+
+.nav nav .burger-menu {
+  display: none;
+  width: 40px;
+  margin-top: 5px;
+}
+
+.nav nav .burger-menu img {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .nav nav .burger-menu {
+    display: block;
+  }
+}
+
+.nav nav #menu-open {
+  background: #f9f7f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 5px grey;
+          box-shadow: 1px 1px 5px grey;
+}
+
+.nav nav #menu-open .top {
+  text-align: center;
+  padding: 20px;
+}
+
+.nav nav #menu-open ul {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  float: right;
+  text-align: right;
+}
+
+.nav nav #menu-open ul li {
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.nav nav #menu-open ul button {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+  background: #ed027e;
+  color: #f9f7f4;
+  letter-spacing: 1.5px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.nav nav #menu-open ul button:hover {
+  background: transparent;
+  color: #141415;
 }
 
 .nav nav .list {
@@ -71,6 +144,12 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .nav nav .list {
+    display: none;
+  }
 }
 
 .nav nav .list ul {

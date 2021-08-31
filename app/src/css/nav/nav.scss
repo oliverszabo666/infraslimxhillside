@@ -1,17 +1,20 @@
 @import "../app/app.scss";
 
 .nav {
-  height: 20vh;
+  .display {
+    display: none;
+  }
+  height: 150px;
+
+  @media (max-width: 1000px) {
+    height: 90px;
+  }
 
   background: $base-color;
 
   position: sticky;
   top: 0;
   z-index: 9999;
-
-  @media (max-width: 1000px) {
-    display: none;
-  }
 
   nav {
     display: flex;
@@ -21,16 +24,85 @@
     padding: 30px 50px;
 
     .logo {
-      width: 100px;
+      width: 80px;
+
+      @media (max-width: 1000px) {
+        width: 40px;
+      }
       img {
         width: 100%;
       }
     }
+
+    .burger-menu {
+      display: none;
+      width: 40px;
+      margin-top: 5px;
+      img {
+        width: 100%;
+      }
+
+      @media (max-width: 1000px) {
+        display: block;
+      }
+    }
+
+    #menu-open {
+      background: $white-color;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+
+      box-shadow: 1px 1px 5px grey;
+
+      .top {
+        text-align: center;
+        padding: 20px;
+      }
+      ul {
+        width: max-content;
+        float: right;
+        text-align: right;
+
+        li {
+          list-style-type: none;
+          margin-top: 5px;
+          padding: 10px;
+          font-size: 15px;
+        }
+
+        button {
+          display: block;
+
+          padding: 10px 15px;
+          border-radius: 10px;
+          border: 0;
+
+          background: $pink-color;
+          color: $white-color;
+          letter-spacing: 1.5px;
+
+          transition: 400ms;
+
+          &:hover {
+            background: transparent;
+            color: $base-color;
+          }
+        }
+      }
+    }
+
     .list {
       width: 50vw;
 
       display: flex;
       justify-content: space-between;
+
+      @media (max-width: 1000px) {
+        display: none;
+      }
 
       ul {
         width: 100%;
