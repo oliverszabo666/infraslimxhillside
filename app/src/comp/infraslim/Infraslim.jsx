@@ -56,7 +56,7 @@ const Infraslim = () => {
                 <img src={ellipse} />
               </div>
               <div className="label">
-                Aktiválja a nyirok - és vérkeringést, erősíti az immunrendszert
+                Aktiválja a vérkeringést, erősíti az immunrendszert
               </div>
             </li>
             <li>
@@ -64,8 +64,8 @@ const Infraslim = () => {
                 <img src={ellipse} />
               </div>
               <div className="label">
-                Fontos szerepet játszik a szív- és érrendszeri és egyéb
-                betegségek megelőzésében
+                Fontos szerepet játszik a szív, érrendszeri és egyéb betegségek
+                megelőzésében
               </div>
             </li>
           </ul>
@@ -81,11 +81,10 @@ const Infraslim = () => {
             <h3>Egészség</h3>
           </div>
           <p>
-            Az INFRASLIMX egy kombinált fitness eszköz, amely a legmodernebb
-            technológiákat alkalmazva magasabb szintre emeli a testedzés
-            alakformáló hatását. A zárt kabinban egyszerre érvényesül a
-            vákuummasszázs, az infra kezelés, a kollagén fényterápia, az ózon-
-            és oxigénterápia, valamint az aromaterápia jótékony hatása.
+            A rendszeres testedzés lassítja az öregedési folyamatokat, pozitívan
+            befolyásolja az anyagcserét és a vérzsírok összetételét, csökkenti a
+            magas vérnyomást és a káros koleszterin szintjét, javítja a tüdő és
+            a szív kapacitását, valamint hozzásegít a jobb közérzet eléréséhez!
           </p>
         </div>
 
@@ -97,11 +96,13 @@ const Infraslim = () => {
             <h3>Sport</h3>
           </div>
           <p>
-            Az INFRASLIMX egy kombinált fitness eszköz, amely a legmodernebb
-            technológiákat alkalmazva magasabb szintre emeli a testedzés
-            alakformáló hatását. A zárt kabinban egyszerre érvényesül a
-            vákuummasszázs, az infra kezelés, a kollagén fényterápia, az ózon-
-            és oxigénterápia, valamint az aromaterápia jótékony hatása.
+            Testünk formáját az izom és a zsír határozza meg. Ha jó alakot
+            szeretnél, elsősorban az izomzatodon kell javítanod! Hogyan
+            támogatja mind ezt az INFRASLIM X? A tekerés segít a lábak
+            formálásában, a kollagén fényterápia feszesíti a bőrt, az
+            ózonterápia segít kipucolni a méreganyagokat a bőrből, az
+            aromaterápia segít megszabadulni a stressztől, az oxigénterápia
+            segít feltöltődni és megelőzni az izomlázat.
           </p>
         </div>
 
@@ -114,11 +115,11 @@ const Infraslim = () => {
           </div>
 
           <p>
-            Az INFRASLIMX egy kombinált fitness eszköz, amely a legmodernebb
-            technológiákat alkalmazva magasabb szintre emeli a testedzés
-            alakformáló hatását. A zárt kabinban egyszerre érvényesül a
-            vákuummasszázs, az infra kezelés, a kollagén fényterápia, az ózon-
-            és oxigénterápia, valamint az aromaterápia jótékony hatása.
+            Elsőre talán nem is gondolnánk, de az oxigénhiányos állapot
+            következtében bőrünk elveszítheti rugalmasságát, kiszáradhat és a
+            narancsbőr is sokkal látványosabbá válhat! Az oxigénterápiás edzés a
+            bőr egészségesen tartása mellett, javítja a kondíciót, hangulatot és
+            az állóképességet is!
           </p>
         </div>
       </div>

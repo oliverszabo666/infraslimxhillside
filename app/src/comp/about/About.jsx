@@ -9,25 +9,28 @@ const About = () => {
         <div className="text-div">
           <div className="title">
             <h1>
-              A <span className="pink-words">Tudatos</span> emberek sportja.
+              Szeretnéd kihozni <br></br> magadból a{" "}
+              <span className="pink-words">legtöbbet</span>?
             </h1>
           </div>
           <div className="text">
             <h2>
               Az <span className="pink-words">InfraslimX Hillside</span>{" "}
               szalonban célunk,
-              <br /> hogy az edzéseket élménnyé varázsoljuk,
-              <br /> a hétköznapokat különlegessé tegyük{" "}
-              <span className="pink-words">Számodra</span>.
+              <br /> hogy támogassunk <span className="pink-words">
+                Téged
+              </span>{" "}
+              az egészséges <br />
+              és kiegyensúlyozott élet fenntartásában.
             </h2>
             <p>
-              Rendkívüli hatékonysággal működő InfraslimX gépeinkkel állunk
-              rendelkezésre az egyedülálló relaxációs élményért és hatékony
-              formálódásért: 45 perc alatt akár 1500 kcal veszteség, zsírégetés,
-              celullitkezelés, szakértelem, személyre szabott életmódprogram,
-              táplálkozás-tervezési tanácsok, gerinckímélő megoldások, exkluzív
-              környezet.
+              Az INFRASLIM X számtalan pozitív hatása mellett gyorsan hozzájárul
+              a testsúlycsökkentéshez, feszesít, segít elérni a megfelelő
+              kondicíót, és támogatja a szervezet méregtelenítő folyamatait.
             </p>
+            <h3>
+              Már az első alkalmak után látni és érezni fogod a változást!
+            </h3>
           </div>
           <a href="#reservation">
             <button className="cta">FOGLALÁS </button>

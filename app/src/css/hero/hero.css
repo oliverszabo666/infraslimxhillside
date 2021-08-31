@@ -29,15 +29,111 @@ body {
 #hero {
   height: 100vh;
   background: #141415;
+  overflow: hidden;
 }
 
 .ctaSection {
   width: 800px;
   margin: 0 auto;
+  z-index: 999;
 }
 
-.ctaSection .ctaLogo img {
+@media (max-width: 1500px) {
+  .ctaSection {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ctaSection {
+    width: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ctaSection {
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ctaSection {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ctaSection {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .ctaSection {
+    width: 200px;
+  }
+}
+
+.ctaSection .mountain,
+.ctaSection .infraslimx {
+  margin: 0 auto;
+}
+
+.ctaSection .mountain img,
+.ctaSection .infraslimx img {
   width: 100%;
+}
+
+.ctaSection .mountain {
+  width: 450px;
+}
+
+@media (max-width: 1000px) {
+  .ctaSection .mountain {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ctaSection .mountain {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ctaSection .mountain {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ctaSection .mountain {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 350px) {
+  .ctaSection .mountain {
+    width: 250px;
+    margin-top: 80px;
+  }
+}
+
+.ctaSection .infraslimx {
+  width: 80%;
+  margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+  .ctaSection .infraslimx {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .ctaSection .infraslimx {
+    width: 70%;
+  }
 }
 
 .cta {
@@ -50,5 +146,36 @@ body {
   border-radius: 50px;
   background: transparent;
   color: #ed027e;
+  z-index: 99;
+}
+
+@media (max-width: 1500px) {
+  .cta {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cta {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .cta {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cta {
+    font-size: 16px;
+  }
+}
+
+.video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
 }
 /*# sourceMappingURL=hero.css.map */

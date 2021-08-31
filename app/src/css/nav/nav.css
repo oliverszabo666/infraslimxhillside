@@ -1,4 +1,4 @@
-@import url("https://cdn.syncfusion.com/ej2/material.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 *,
 *::before,
 *::after {
@@ -6,6 +6,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 svg {
@@ -16,6 +17,15 @@ button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .nav {
   height: 20vh;
   background: #141415;
@@ -23,6 +33,12 @@ button {
   position: sticky;
   top: 0;
   z-index: 9999;
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
 }
 
 .nav nav {
@@ -39,8 +55,12 @@ button {
   padding: 30px 50px;
 }
 
+.nav nav .logo {
+  width: 100px;
+}
+
 .nav nav .logo img {
-  width: 150px;
+  width: 100%;
 }
 
 .nav nav .list {
